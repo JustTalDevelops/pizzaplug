@@ -3,5 +3,5 @@ author: tal
 website: https://github.com/JustTalDevelops
 description: Buy Domino's Pizza in Minecraft!
 version: 1.0.0
-main: tal\PizzaPlug\Main
+main: tal\pizzaplug\Main
 api: 4.0.0

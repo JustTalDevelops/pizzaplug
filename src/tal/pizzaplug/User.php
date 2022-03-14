@@ -1,6 +1,6 @@
 <?php
 
-namespace Tal\PizzaPlug;
+namespace tal\pizzaplug;
 
 use Threaded;
 
