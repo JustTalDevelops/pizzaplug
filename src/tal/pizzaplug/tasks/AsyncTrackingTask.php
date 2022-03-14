@@ -39,7 +39,7 @@ class AsyncTrackingTask extends AsyncTask {
             ($this->callback)(false);
             return;
         }
-        if ($status === "Void") {
+        if ($status === "Void" || $status === "Bad") {
             $player->sendMessage(C::RED . "The store cancelled your order, try again later?");
             ($this->callback)(false);
             return;
