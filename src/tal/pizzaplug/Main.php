@@ -13,7 +13,7 @@ class Main extends PluginBase
     protected function onEnable(): void
     {
         self::$instance = $this;
-        $this->getServer()->getCommandMap()->register("pizza", new PizzaCommand("pizza", "Buy a pizza from Domino's Pizza!", "/pizza"));
+        $this->getServer()->getCommandMap()->register("pizzaplug", new PizzaCommand("pizza", "Buy a pizza from Domino's Pizza!", "/pizza"));
     }
 
 }
