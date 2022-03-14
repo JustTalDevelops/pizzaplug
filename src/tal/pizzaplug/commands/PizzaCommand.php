@@ -9,11 +9,15 @@ use dktapps\pmforms\element\Label;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\player\Player;
+use pocketmine\plugin\Plugin;
+use pocketmine\plugin\PluginOwned;
 use pocketmine\Server;
 use pocketmine\utils\TextFormat;
+use tal\pizzaplug\Main;
 use tal\pizzaplug\tasks\AsyncNearbyStoresTask;
+use tal\pizzaplug\User;
 
-class PizzaCommand extends Command
+class PizzaCommand extends Command implements PluginOwned
 {
 
     public function execute(CommandSender $sender, string $commandLabel, array $args)
@@ -43,6 +47,11 @@ class PizzaCommand extends Command
                 ))
             );
         }));
+    }
+
+    public function getOwningPlugin(): Plugin
+    {
+       return Main::$instance;
     }
 
 }
