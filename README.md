@@ -53,3 +53,6 @@ with orders to debug your implementation of their API, sorry Brayden)
 - [X] Live tracking
 - [ ] General code cleanup
 - [ ] Full support for building your own pizzas
+
+# disclaimer
+this code is absolute dogshit please do not actually use this on any major servers
