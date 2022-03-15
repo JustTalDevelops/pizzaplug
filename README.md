@@ -1,6 +1,6 @@
 # pizzaplug
 Have you ever been on your PocketMine-MP (4.0.0+) server, and thought:
-> It'd be real nice if I could have order Domino's pizza through MCPE!
+> It'd be real nice if I could order Domino's pizza through MCPE!
 
 Well, today's your lucky day. pizzaplug is about to change the way you
 sweat on twelve year olds for the better.
